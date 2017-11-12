@@ -1,0 +1,10 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			
+<beans>
+	<bean id="s" class="beans.Student">
+		<property name="rollNo" value="61"></property>
+		<property name="name" value="Vishal Kawade"></property>
+		<property name="dept" value="Comp Science"></property>
+	</bean>
+</beans>			

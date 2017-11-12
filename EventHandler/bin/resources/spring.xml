@@ -1,0 +1,11 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			
+<beans>
+	<!--In case of standalone application these events may useful  -->
+	<bean class="beans.IOCCloseEventListener"/>
+	<bean class="beans.IOCOnStartupEventListener"/>
+	<bean class="beans.IOCRefreshEventListener"/>
+	<bean class="beans.IOCStopEventListener"/>
+
+</beans>					

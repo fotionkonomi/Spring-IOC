@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="F:/JAr/Spring/Spring/spring-expression-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="H:/Project Related Softwares/mysql-connector-java-5.1.21-bin.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/IOC"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

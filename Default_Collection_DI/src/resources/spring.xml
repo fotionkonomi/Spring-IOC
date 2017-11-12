@@ -1,0 +1,38 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			
+<beans>
+	<bean id="s" class="beans.Simple">
+		<property name="fruits">
+			<list>
+				<value>APPLE</value>
+				<value>MANGO</value>
+				<value>BANANA</value>
+			
+			</list>
+		
+		</property>
+		<property name="cricketers">
+			<set>
+				<value>Sachin</value>
+				<value>Sehwag</value>
+				<value>Yuvraj</value>
+			
+			
+			</set>
+		
+		</property>
+		<property name="cc">
+			<map>
+				<entry key="India" value="Delhi"></entry>
+				<entry key="Australia" value="Sydeny"></entry>
+				<entry key="England" value="London"></entry>
+			
+			</map>		
+		
+		</property>
+	
+	
+	</bean>
+
+</beans>					

@@ -1,0 +1,28 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<!-- This is default dependency check to default -->
+	<!-- <bean id="c" class="beans.Car" dependency-check="none">
+		
+	</bean> -->
+	
+	<!-- This simple dependency checking for primitive type setter methods only  -->
+	<!-- <bean id="c" class="beans.Car" dependency-check="simple">
+		<property name="carNane" value="AUDI"/>
+	</bean> -->
+	
+	<bean id="e" class="beans.Engine">
+		<property name="modelYear" value="2017"/>
+	</bean>
+	<!-- For objects only -->
+	<!-- <bean id="c" class="beans.Car" dependency-check="objects">
+		<property name="engine" ref="e"/>
+	</bean>
+	 -->
+	<bean id="c" class="beans.Car" dependency-check="all">
+		<property name="carNane" value="AUDI"/>
+		<property name="engine" ref="e"/>
+	</bean>
+	
+</beans>			

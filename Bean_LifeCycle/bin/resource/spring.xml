@@ -1,0 +1,12 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans default-init-method="init" default-destroy-method="destroy">
+	
+	<!-- Autowiring constructor -->
+	
+		<bean id="t" class="beans.Test"/> 
+		<bean id="t1" class="beans.Test1"/>
+		<bean id="t2" class="beans.Test2"/>
+	
+	
+</beans>			
